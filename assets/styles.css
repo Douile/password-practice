@@ -23,12 +23,14 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  align-content: flex-start;
   overflow-x: hidden;
   overflow-y: auto;
 }
 .password {
   display: grid;
   width: 100%;
+  height: max-content;
   grid-template: auto / 1fr 6fr 1fr 1fr;
   padding: 4px;
   background: #f2f2f2;
