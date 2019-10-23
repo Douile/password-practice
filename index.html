@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+<title>Password learn</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self';upgrade-insecure-requests;block-all-mixed-content;require-sri-for script style;">
+<script src="/assets/plearn.js" async integrity="sha384-J0uznC4HwpteX/cgu7fKY/sSWiWbiuu4OgjHqBcvckrBFhfmeyyVFY2Z9rChtOkz"></script>
+<link rel="stylesheet" href="/assets/styles.css" integrity="sha384-m7VM4xQA8rUJqsZYPU4FBXzrSAKC12CUge+H0ZxzbJ65GRrrIG1Oz33JXeyX+sZi">
+</head>
+<body>
+<div class="main">
+<div class="header">
+<label for="new-password">Add a new password</label>
+<input type="text" name="new-password-name" placeholder="Name">
+<input type="password" name="new-password" placeholder="Password" autocomplete="off">
+</div>
+<div class="password-container"></div>
+</div>
+<div class="notifications"></div>
+<!-- Templates -->
+<template id="template-password-details"><div class="password"><span class="password-name"></span><input type="password" name="attempt-password" placeholder="Attempt password" autocomplete="off"><span class="password-attempts"></span><input type="submit" name="delete-password" value="Delete" tabindex="-1"></div></template>
+<template id="template-notification"><div class="notification"></span></template>
+</body>
+</html>
