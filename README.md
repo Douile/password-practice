@@ -1,6 +1,6 @@
-# Password-Learn
+# Password-Practice
 
-View on [github.io](https://douile.github.io/password-learn/)
+View on [github.io](https://douile.github.io/password-practice/)
 
 This small site aims to help you learn more complex passwords, by letting you easily try them as many times as you want.
 
@@ -28,3 +28,4 @@ Whilst security cannot be guaranteed in any regular web browser I have attempted
 - Remind users to attempt their passwords at intervals after they are inputted
 - Come up with a better name
 - Add some pretty images
+- Add PWA config
